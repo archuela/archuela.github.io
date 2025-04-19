@@ -1,1 +1,146 @@
-Hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Magizhan's 1st Birthday Carnival</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      color: #333;
+      background-size: cover;
+    }
+
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.8);
+      min-height: 100vh;
+      padding: 3rem 1rem;
+    }
+
+    .birthday-card {
+      max-width: 800px;
+      margin: auto;
+      background: linear-gradient(145deg, #fff7e6, #ffe0f0);
+      padding: 2.5rem;
+      border-radius: 2rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      border: 6px dashed #ff69b4;
+    }
+
+    h1, h2 {
+      font-family: 'Luckiest Guy', cursive;
+      color: #d10073;
+    }
+
+    .lead {
+      font-size: 1.25rem;
+      color: #555;
+    }
+
+    .calendar h4 {
+      margin-bottom: 1rem;
+      font-weight: bold;
+      font-family: 'Luckiest Guy', cursive;
+      color: #ff4081;
+    }
+
+    .calendar-table {
+      width: 100%;
+      max-width: 500px;
+      margin: auto;
+      background-color: #fff0f6;
+      border: 2px solid #ffb6c1;
+    }
+
+    .calendar-table td, .calendar-table th {
+      border: 1px solid #ffb6c1;
+      padding: 0.75rem;
+      text-align: center;
+      width: 14.28%;
+    }
+
+    .highlight {
+      background-color: #ff69b4;
+      color: white;
+      font-weight: bold;
+      border-radius: 50%;
+    }
+
+    .balloons {
+      font-size: 2rem;
+    }
+
+    @media (max-width: 576px) {
+      .calendar-table td, .calendar-table th {
+        padding: 0.5rem;
+        font-size: 0.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="birthday-card text-center">
+      <div class="balloons">🎈🎉🎠🎪</div>
+      <h1>You're Invited!</h1>
+      <h2>Magizhan's 1st Birthday Carnival</h2>
+      <p class="lead">Step right up and join the fun – our little star is turning ONE!</p>
+
+      <div class="mt-4">
+        <h5>📅 Date:</h5>
+        <p>8th May 2025</p>
+
+        <h5>📍 Location:</h5>
+        <p>
+          A107, XS Real Phase 2A, Terrace<br>
+          Siruseri, Chennai
+        </p>
+
+        <h5>🎠 Hosted by:</h5>
+        <p>Mom & Dad – Elavarasan & Archana</p>
+      </div>
+
+      <div class="calendar mt-5">
+        <h4>🎡 May 2025</h4>
+        <div class="table-responsive">
+          <table class="calendar-table table">
+            <thead>
+              <tr>
+                <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td></td><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td>
+              </tr>
+              <tr>
+                <td>4</td><td>5</td><td>6</td><td>7</td><td class="highlight">8</td><td>9</td><td>10</td>
+              </tr>
+              <tr>
+                <td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td>
+              </tr>
+              <tr>
+                <td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td>
+              </tr>
+              <tr>
+                <td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="mt-4">
+        🎟️ Carnival games, treats & fun await you!
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS (optional) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
